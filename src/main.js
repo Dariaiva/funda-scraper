@@ -16,11 +16,11 @@ const houses = [];
 const { CHAT_ID, BOT_API } = process.env;
 
 const urls = [
-    'https://www.funda.nl/en/koop/amsterdam/huis/beschikbaar/0-350000/60+woonopp/1+slaapkamers/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
-    'https://www.funda.nl/en/koop/haarlem/huis/beschikbaar/0-350000/60+woonopp/1+slaapkamers/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
-    'https://www.funda.nl/en/koop/zaandam/huis/beschikbaar/0-350000/60+woonopp/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
-    'https://www.funda.nl/en/koop/purmerend/huis/beschikbaar/0-350000/60+woonopp/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
-    'https://www.funda.nl/en/koop/hoofddorp/huis/beschikbaar/0-350000/60+woonopp/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
+    'https://www.funda.nl/en/koop/amsterdam/beschikbaar/0-350000/woonhuis/60+woonopp/1+slaapkamers/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
+    'https://www.funda.nl/en/koop/haarlem/beschikbaar/0-350000/woonhuis/70+woonopp/1+slaapkamers/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
+    'https://www.funda.nl/en/koop/zaandam/beschikbaar/0-350000/woonhuis/70+woonopp/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
+    'https://www.funda.nl/en/koop/purmerend/beschikbaar/0-350000/woonhuis/70+woonopp/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
+    'https://www.funda.nl/en/koop/hoofddorp/beschikbaar/0-350000/woonhuis/70+woonopp/30-dagen/energielabel-a/energielabel-b/energielabel-c/',
 ];
 
 const runTask = async () => {
